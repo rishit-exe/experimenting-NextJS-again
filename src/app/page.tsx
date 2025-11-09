@@ -75,7 +75,7 @@ export default function Home() {
                   </li>
                   <li className="pt-2">
                     Status:
-                    <span className="font-semibold ml-2">In Progress</span>
+                    <span className="font-semibold ml-2">Completed</span>
                   </li>
                 </ul>
               </li>
