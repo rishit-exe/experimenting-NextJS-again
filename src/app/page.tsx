@@ -56,6 +56,29 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <div className="mt-10">
+        <h1 className="text-3xl font-bold text-center">Task Logger:</h1>
+
+        <div className="mt-4 text-left ml-100">
+          <ol className="list-decimal">
+          <li className="text-xl">
+            Task 1: Reinforce Next.js App Router and Tailwind CSS integration skills.
+          </li>
+          <ul className="px-10 py-2 list-disc text-lg">
+            <li className="leading-relaxed">
+              Description: Two routes a) Root Route and b) Personal Route ( /rishit ).
+              <span className="block ml-22">
+                In personal route include your details like some favourite movies or hobbies and add a go to home button too.
+              </span>
+            </li>
+            <li className="pt-2">
+              Status:
+              <span className="font-semibold ml-2">In Progress</span>
+            </li>  
+          </ul>
+          </ol>
+        </div>
+      </div>
     </div>
   );
 }
