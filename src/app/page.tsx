@@ -10,8 +10,9 @@ export default function Home() {
   return (
     <div>
       <h1 className="text-center pt-12 text-3xl">
-        <span className="box-decoration-slice rounded-xl px-10 py-3 bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white">
-          Welcome To My Portfolio
+        <span className="inline-flex items-center rounded-xl bg-black/40 px-10 py-3 text-white shadow-sm">
+          <span className="w-2 h-8 bg-violet-600 rounded-full mr-4" aria-hidden />
+          <span>Welcome To My Portfolio</span>
         </span>
       </h1>
       <br />
@@ -21,35 +22,35 @@ export default function Home() {
         <div className="flex gap-4">
           <Link href="/rishit" className="inline-block">
             <button
-              className="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 px-6 py-3 rounded-2xl text-white text-lg"
+              className="bg-linear-to-r from-neutral-800/60 via-neutral-900/40 to-black/80 hover:from-neutral-700/60 hover:via-neutral-800/40 hover:to-black/70 focus:outline-2 focus:outline-offset-2 focus:outline-white/20 active:opacity-90 px-6 py-3 rounded-2xl text-white text-lg border border-white/5"
             >
               About Me
             </button>
           </Link>
           <Link href="/experience" className="inline-block">
           <button
-            className="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 px-6 py-3 rounded-2xl text-white text-lg inline-block"
+            className="bg-linear-to-r from-neutral-800/60 via-neutral-900/40 to-black/80 hover:from-neutral-700/60 hover:via-neutral-800/40 hover:to-black/70 focus:outline-2 focus:outline-offset-2 focus:outline-white/20 active:opacity-90 px-6 py-3 rounded-2xl text-white text-lg inline-block border border-white/5"
           >
            Experience
           </button>
           </Link>
           <Link href="/projects" className="inline-block">
           <button
-            className="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 px-6 py-3 rounded-2xl text-white text-lg inline-block"
+            className="bg-linear-to-r from-neutral-800/60 via-neutral-900/40 to-black/80 hover:from-neutral-700/60 hover:via-neutral-800/40 hover:to-black/70 focus:outline-2 focus:outline-offset-2 focus:outline-white/20 active:opacity-90 px-6 py-3 rounded-2xl text-white text-lg inline-block border border-white/5"
           >
            Projects
           </button>
           </Link>
           <Link href="/certificates" className="inline-block">
           <button
-            className="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 px-6 py-3 rounded-2xl text-white text-lg inline-block"
+            className="bg-linear-to-r from-neutral-800/60 via-neutral-900/40 to-black/80 hover:from-neutral-700/60 hover:via-neutral-800/40 hover:to-black/70 focus:outline-2 focus:outline-offset-2 focus:outline-white/20 active:opacity-90 px-6 py-3 rounded-2xl text-white text-lg inline-block border border-white/5"
           >
            Certificates
           </button>
           </Link>
           <Link href="/contact-me" className="inline-block">
           <button
-            className="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 px-6 py-3 rounded-2xl text-white text-lg inline-block"
+            className="bg-linear-to-r from-neutral-800/60 via-neutral-900/40 to-black/80 hover:from-neutral-700/60 hover:via-neutral-800/40 hover:to-black/70 focus:outline-2 focus:outline-offset-2 focus:outline-white/20 active:opacity-90 px-6 py-3 rounded-2xl text-white text-lg inline-block border border-white/5"
           >
            Contact Me
           </button>
